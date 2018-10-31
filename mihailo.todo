@@ -7,3 +7,6 @@
 ☐ Check oracles funds display in info (sometimes funds go to zero and then get back)
 ☐ Look at double withdraw on gateways
 ☐ OracleRegister accept anything as format
+☐ Implement check for confirmed/notarised every CC will use
+☐ Make withdraw from gateway address only after MArkdone marker conf/notarised
+☐ Start withdraw in oraclefeed only after gatewaywithdraw tx conf/notarised
