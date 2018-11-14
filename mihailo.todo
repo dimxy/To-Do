@@ -1,13 +1,14 @@
-☐ Check RPC inputs on tokenbalance and others
-☐ Fix confirmation number for isCCTxNotarizedConfirmed
+☐ Check RPC inputs on tokenbalance and others for valid data (like pubkeys length ...)
+✔ Fix confirmation number for isCCTxNotarizedConfirmed @done (11/14/2018, 5:02:07 PM)
 ☐ Check GatewaysWithdraw bug from TonyL
 ☐ Find bug in oraclefeed for multisig (gateways fix strcpy(depositaddr,CBitcoinAddress(CScriptID(GetScriptForMultisig(M,pubkeys))).ToString().c_str()))
 ✔ Check oracles sharing funds accros multiple oracles @done (11/14/2018, 11:48:53 AM)
 ☐ Normalize oracle register and subscribe to have input in same denomination (now register satoshi, subscribe coins)
-☐ Check oracles funds display in info (sometimes funds go to zero and then get back)
-✔ Look at double withdraw on gateways @done (11/14/2018, 11:49:17 AM)
+✔ Check oracles funds display in info (sometimes funds go to zero and then get back) @done (11/14/2018, 3:32:59 PM)
+✔ Look at double withdraw on gateways @done (11/14/2018, 3:32:56 PM)
 ☐ OracleRegister accept anything as format
 ✔ Implement check for confirmed/notarised every CC will use @done (11/14/2018, 11:49:28 AM)
-☐ Make withdraw from gateway address only after MArkdone marker conf/notarised
+✔ Make withdraw from gateway address only after Markdone marker conf/notarised @done (11/14/2018, 5:03:10 PM)
 ✔ Start withdraw in oraclefeed only after gatewaywithdraw tx conf/notarised @done (11/14/2018, 11:49:39 AM)
 ☐ Change channels info to show payments in mempool
+☐ Create RPC for pending gateway deposits and rename current to pending gateway withdrawal
