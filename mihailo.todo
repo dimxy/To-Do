@@ -12,3 +12,5 @@
 ✔ Start withdraw in oraclefeed only after gatewaywithdraw tx conf/notarised @done (11/14/2018, 11:49:39 AM)
 ☐ Change channels info to show payments in mempool
 ☐ Create RPC for pending gateway deposits and rename current to pending gateway withdrawal
+☐ Finish Gateways validation
+☐ Make util RPC to decode CC OP_RETURN data
