@@ -14,3 +14,4 @@
 ☐ Create RPC for pending gateway deposits and rename current to pending gateway withdrawal
 ☐ Finish Gateways validation
 ☐ Make util RPC to decode CC OP_RETURN data
+☐ Change output of channelsinfo to JSON format

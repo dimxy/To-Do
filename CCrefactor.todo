@@ -1,0 +1,10 @@
+CC refactor plans
+
+☐ create common CC code skeleton which most of CCs will use
+☐ review all current validation and put some global validation for all CCs
+☐ figure out best way to use tokens in other CCs
+☐ find a proper way to trigger validation for CC transactions that don't spend CC inputs (two step tx with marker)
+☐ investigate is there a benefit to load CC modules dynamically and implement it if so
+☐ go through all CC RPC and make neccessary data validations
+☐ use CCError in all CC RPCs or find better solution if neccessary
+☐ 1:1 sidechains for gateways
