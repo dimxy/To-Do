@@ -10,6 +10,7 @@ we also may use a unified function for buiding/parsing asset opret (with the use
 In the Heir contract there is a suggestion of a simple OOP validation framework which would allow to setup validators for a vin or vout accordingly to vins/vouts specification. It would also have several common usage validators like NormalInputValidator, PublicKeyValidator and allow to attach a new contract's specific validators. 
 ☐ figure out best way to use tokens in other CCs
 if we can find a proper ways of converting tokens between contracts in forward and backward directions and validate this, probably we may continue to use it 
+But even with currently implemented fixes for fake tokens detection there are still possibilities that some contract could return (convert back) more tokens than it was issued. To prevent this we should validate more than 1 level back, but up to the initial tokenconvert 
 ☐ find a proper way to trigger validation for CC transactions that don't spend CC inputs (two step tx with marker)
 ☐ investigate is there a benefit to load CC modules dynamically and implement it if so
 ☐ go through all CC RPC and make neccessary data validations
