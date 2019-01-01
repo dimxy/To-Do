@@ -18,3 +18,4 @@ good to get number conversion functions to types matched
 ☐ use CCError in all CC RPCs or find better solution if neccessary
 As long as we already use UniValue object for returning values in functions like AssetInfo(), GatewaysInfo() why cannot we use it for   returning errors in other functions? 
 ☐ 1:1 sidechains for gateways
+☐ Converting cc contracts from the set of functions to C++ classes. Why is that? First and foremost this should be done in anticipation that cc contracts are going to be developed by multiple developers, and cobverting to C++ classes would allow to utilize embedded C++ member protection mechanisms (public. protected and private specifiers) to isolate code of different developers. The use of C++ classes would also permit to setup base utility classes (like current ismyvin() func etc)
