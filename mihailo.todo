@@ -15,6 +15,6 @@ Archive:
   ✔ Make withdraw from gateway address only after Markdone marker conf/notarised @done (11/14/2018, 5:03:10 PM)
   ✔ Start withdraw in oraclefeed only after gatewaywithdraw tx conf/notarised @done (11/14/2018, 11:49:39 AM)
   ✔ Change channels info to show payments in mempool @done (12/17/2018, 4:17:14 PM)
-  ✘ Create RPC for pending gateway deposits and rename current to pending gateway withdrawal @cancelled (1/3/2019, 12:13:15 PM)
+  ✔ Create RPC for pending gateway deposits and rename current to pending gateway withdrawal (1/3/2019, 12:13:15 PM) @done(19-01-24 14:38)
   ✔ Make util RPC to decode CC OP_RETURN data @done (1/3/2019, 2:28:55 PM)
   ✔ Change output of channelsinfo to JSON format @done (12/17/2018, 4:17:17 PM)
