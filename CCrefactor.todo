@@ -18,3 +18,4 @@ good to get number conversion functions to types matched
 ☐ use CCError in all CC RPCs or find better solution if neccessary
 As long as we already use UniValue object for returning values in functions like AssetInfo(), GatewaysInfo() why cannot we use it for   returning errors in other functions? 
 ☐ 1:1 sidechains for gateways
+☐ Use util.cpp LogPrint... debug log functions
